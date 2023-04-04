@@ -3,7 +3,7 @@ import requests
 def phone_number_info(phone_number, country_code=None):
     url = "http://apilayer.net/api/validate"
     params = {
-        "access_key": "oA6417lDKB4gWwA04ph1Id9rqdE6QISN",
+        "access_key": "YOUR-API-KEY-HERE",
         "number": phone_number,
         "country_code": country_code
     }
@@ -18,4 +18,4 @@ def phone_number_info(phone_number, country_code=None):
     else:
         print("The phone number is invalid")
 
-phone_number_info("698889903", "355")
+phone_number_info("YOUR-VICTIMS-NUMBER", "YOUR-CONTRY-CODE")
