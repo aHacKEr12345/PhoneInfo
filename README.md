@@ -4,5 +4,6 @@ This is how to use it
 ```
 cd PhoneInfo
 ls
+pip install -r requirements.txt
 python3 phoneinfo.py
 ```
